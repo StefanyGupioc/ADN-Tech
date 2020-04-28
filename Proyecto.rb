@@ -4,6 +4,7 @@ class Persona
 		@dni = dni
 		@apellidos = apellidos
 		@nombres = nombres
+	end	
 end
 
 class Tutor < Persona
@@ -67,4 +68,3 @@ class Particular < Alumno
 		end	
 		return puntaje	
 	end
-end
